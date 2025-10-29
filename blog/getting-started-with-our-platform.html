@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the science behind cold plunge therapy and how it revolutionizes athletic recovery and wellness. Learn proven techniques and benefits.">
+    <meta name="keywords" content="cold plunge therapy, cold water immersion, recovery science, athletic recovery, cryotherapy, wellness">
+    <meta name="author" content="Cold Plunge Brand">
+    <title>The Science Behind Cold Plunge Therapy: Ultimate Recovery Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
+        }
+        
+        .feature-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+        
+        .testimonial-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .faq-item {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-item:hover {
+            background-color: rgba(59, 130, 246, 0.02);
+        }
+        
+        .faq-button {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-button:hover {
+            color: #3b82f6;
+        }
+        
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-content.active {
+            max-height: 500px;
+        }
+        
+        .mobile-menu {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .benefit-image {
+            transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .benefit-image:hover {
+            transform: scale(1.02);
+        }
+
+        .blog-content h2 {
+            font-size: 1.875rem;
+            font-weight: bold;
+            color: #0f172a;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-content h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .blog-content p {
+            color: #4b5563;
+            line-height: 1.75;
+            margin-bottom: 1rem;
+        }
+
+        .blog-content ul, .blog-content ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-content li {
+            color: #4b5563;
+            line-height: 1.75;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-content strong {
+            color: #1e293b;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Announcement Bar -->
+    <div class="bg-slate-900 text-white py-2 text-center text-sm font-medium">
+        <p>🚚 Fast Worldwide Shipping - 5 days delivery | 100% Satisfaction Guarantee</p>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom" class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-snowflake text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold text-slate-900">ColdPlunge</span>
+                </a>
+
+                <!-- Back Button -->
+                <a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom" class="nav-link text-gray-700 hover:text-blue-600 font-medium text-sm">
+                    ← Back
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog Content Section -->
+    <section class="py-12 md:py-16 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Blog Header -->
+            <div class="mb-8 md:mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4 leading-tight">
+                    The Science Behind Cold Plunge Therapy: Your Ultimate Recovery Guide
+                </h1>
+                <div class="flex items-center gap-4 text-gray-600 text-sm md:text-base">
+                    <span class="flex items-center gap-2">
+                        <i class="fas fa-calendar"></i>
+                        Published: January 2025
+                    </span>
+                    <span class="flex items-center gap-2">
+                        <i class="fas fa-clock"></i>
+                        8 min read
+                    </span>
+                </div>
+            </div>
+
+            <!-- Featured Image -->
+            <img src="https://images.unsplash.com/photo-1576091160550-112173f31c77?w=1200&h=675&fit=crop&q=80" alt="Athlete performing cold plunge therapy recovery in ice bath" class="w-full rounded-lg shadow-lg mb-8 md:mb-12">
+
+            <!-- Blog Content -->
+            <div class="blog-content">
+                <p>
+                    Cold plunge therapy has evolved from a niche recovery method used exclusively by elite athletes to a mainstream wellness practice embraced by fitness enthusiasts, professionals, and health-conscious individuals worldwide. But what exactly is cold plunge therapy, and why has it become so popular? In this comprehensive guide, we'll explore the cutting-edge science behind cold water immersion, examine the proven benefits, and provide practical guidance for implementing this powerful recovery technique into your wellness routine.
+                </p>
+
+                <h2>Understanding Cold Plunge Therapy: The Basics</h2>
+                <p>
+                    Cold plunge therapy, also known as cold water immersion (CWI) or cryotherapy, involves exposing your body to extremely cold water—typically between 39°F and 59°F (4°C to 15°C)—for short periods, usually ranging from 1 to 5 minutes. The practice triggers a cascade of physiological responses that have profound effects on your body's recovery mechanisms, mental resilience, and overall wellness.
+                </p>
+                <p>
+                    The concept isn't entirely new. Humans have used cold water therapy for thousands of years, from ancient Roman ice baths to Scandinavian ice swimming traditions. However, modern sports science has finally caught up with this ancient practice, providing empirical evidence for what practitioners have long known intuitively: cold exposure is incredibly beneficial for recovery and performance.
+                </p>
+
+                <h2>The Physiological Response: What Happens During Cold Immersion</h2>
+                <p>
+                    When you immerse your body in cold water, several immediate physiological changes occur. Your sympathetic nervous system activates, triggering what's known as the "cold shock response." Heart rate increases, blood pressure rises, and your body releases stress hormones including adrenaline and cortisol. This might sound counterintuitive for recovery, but this acute stress response is precisely what makes cold plunge therapy so effective.
+                </p>
+                <p>
+                    The key mechanism behind cold plunge benefits is <strong>vasoconstriction</strong>—the narrowing of blood vessels in response to cold exposure. This forces blood away from peripheral tissues and toward your vital organs. When you exit the cold water and your body begins to warm up, the opposite occurs: <strong>vasodilation</strong>, where blood vessels dilate and blood rushes back to the peripheral tissues with increased oxygen and nutrients.
+                </p>
+                <p>
+                    This cycle of vasoconstriction and vasodilation acts like a circulatory pump, flushing metabolic waste products from muscles and tissues while simultaneously delivering fresh, oxygenated blood. This process is remarkably similar to the benefits of active recovery and exercise, but achieved passively through cold exposure. The entire process typically takes 15-30 minutes after you exit the cold plunge, during which your body experiences enhanced circulation and accelerated recovery.
+                </p>
+
+                <h2>Inflammation Reduction: The Core Recovery Benefit</h2>
+                <p>
+                    One of the most scientifically validated benefits of cold plunge therapy is its ability to reduce inflammation. Inflammation, while necessary for healing in the acute phase following injury or intense exercise, becomes problematic when it persists chronically. Excessive inflammation impairs recovery, increases pain, and can lead to overuse injuries.
+                </p>
+                <p>
+                    Cold water immersion reduces inflammatory markers in your bloodstream, including interleukin-6 (IL-6) and tumor necrosis factor-alpha (TNF-α). Research published in the Journal of Physiology demonstrated that athletes who used cold water immersion after intense training sessions experienced significantly reduced muscle soreness and faster recovery compared to control groups. The cold exposure essentially "turns down the dial" on your inflammatory response, allowing your body to recover more efficiently.
+                </p>
+                <p>
+                    This anti-inflammatory effect is particularly valuable for individuals engaging in high-intensity training, competitive sports, or physically demanding occupations. By incorporating cold plunge therapy 2-4 times weekly, you can manage systemic inflammation, reduce chronic pain, and maintain better overall joint health and mobility.
+                </p>
+
+                <h2>Mental Resilience and Nervous System Adaptation</h2>
+                <p>
+                    Beyond physical recovery, cold plunge therapy offers remarkable psychological benefits. Regular cold exposure trains your nervous system to handle stress more effectively—a phenomenon known as "stress inoculation." Each time you voluntarily expose yourself to the discomfort of cold water, you're essentially practicing controlled stress management in a safe, measurable environment.
+                </p>
+                <p>
+                    Over time, regular cold plunge users develop improved stress resilience. They experience lower baseline cortisol levels, better emotional regulation, and enhanced ability to remain calm under pressure. This nervous system adaptation has profound implications for mental health, productivity, and overall quality of life. Many practitioners report improved mood, reduced anxiety, and greater mental clarity after incorporating cold plunge therapy into their routines.
+                </p>
+                <p>
+                    The psychological boost is partially attributed to the release of endorphins—your body's natural "feel-good" chemicals. Additionally, the sense of accomplishment from completing a challenging cold plunge session builds confidence and mental toughness that extends beyond the recovery room into daily life.
+                </p>
+
+                <h2>Enhanced Athletic Performance and Recovery Metrics</h2>
+                <p>
+                    Professional athletes and sports teams have embraced cold plunge therapy because the data is compelling. Studies consistently show that athletes using cold water immersion protocols experience:
+                </p>
+                <ul>
+                    <li><strong>30-50% faster recovery times</strong> between intense training sessions</li>
+                    <li><strong>Reduced delayed-onset muscle soreness (DOMS)</strong> by up to 40%</li>
+                    <li><strong>Improved power output</strong> in subsequent training sessions</li>
+                    <li><strong>Enhanced circulation</strong> and nutrient delivery to damaged tissues</li>
+                    <li><strong>Decreased injury rates</strong> through better tissue recovery</li>
+                    <li><strong>Improved sleep quality</strong> and sleep depth</li>
+                </ul>
+                <p>
+                    These metrics translate directly into better training outcomes. Athletes can train harder, more frequently, and with less risk of overuse injuries. For competitive athletes, this represents a significant performance advantage. For recreational fitness enthusiasts, it means you can achieve your goals faster while maintaining better long-term joint and tissue health.
+                </p>
+
+                <h2>Metabolic Benefits and Weight Management</h2>
+                <p>
+                    Emerging research suggests that cold plunge therapy may offer metabolic benefits related to weight management and metabolic health. Cold exposure activates brown adipose tissue (brown fat), which burns calories to generate heat—a process called thermogenesis. While the caloric expenditure from a single cold plunge session is modest, regular exposure may contribute to improved metabolic health.
+                </p>
+                <p>
+                    Additionally, cold plunge therapy improves insulin sensitivity and glucose metabolism, which are critical factors in metabolic health and disease prevention. Some research indicates that regular cold exposure may help regulate appetite hormones like ghrelin and leptin, potentially supporting healthier eating patterns and weight management efforts.
+                </p>
+
+                <h2>Optimal Cold Plunge Protocol: Science-Based Guidelines</h2>
+                <p>
+                    To maximize benefits while minimizing risks, follow these evidence-based cold plunge protocols:
+                </p>
+                <h3>Temperature Guidelines</h3>
+                <ul>
+                    <li><strong>Beginners:</strong> Start at 50-55°F (10-13°C) for 1-2 minutes</li>
+                    <li><strong>Intermediate:</strong> Progress to 45-50°F (7-10°C) for 2-3 minutes</li>
+                    <li><strong>Advanced:</strong> 39-45°F (4-7°C) for 3-5 minutes</li>
+                </ul>
+                <h3>Frequency Recommendations</h3>
+                <ul>
+                    <li><strong>Recovery focus:</strong> 2-3 times per week</li>
+                    <li><strong>Performance enhancement:</strong> 3-4 times per week</li>
+                    <li><strong>Daily use:</strong> Safe for most people but unnecessary for optimal benefits</li>
+                </ul>
+                <h3>Timing Considerations</h3>
+                <p>
+                    The timing of your cold plunge relative to training significantly impacts effectiveness. For maximum recovery benefits, use cold plunge therapy 30 minutes to 4 hours after intense training. For morning energy and mental clarity, use cold plunge therapy first thing in the morning on non-training days.
+                </p>
+
+                <h2>Who Should Use Cold Plunge Therapy?</h2>
+                <p>
+                    Cold plunge therapy is beneficial for a wide range of individuals, including:
+                </p>
+                <ul>
+                    <li>Competitive and recreational athletes</li>
+                    <li>Fitness enthusiasts and gym-goers</li>
+                    <li>Individuals with chronic pain or inflammation</li>
+                    <li>People seeking improved mental health and stress resilience</li>
+                    <li>Post-surgical recovery patients (with medical clearance)</li>
+                    <li>Professionals managing high-stress occupations</li>
+                    <li>Anyone pursuing optimal wellness and longevity</li>
+                </ul>
+                <p>
+                    However, certain individuals should avoid cold plunge therapy or consult with healthcare providers first, including those with cardiovascular disease, uncontrolled hypertension, pregnancy, cold urticaria (cold allergy), or severe Raynaud's syndrome.
+                </p>
+
+                <h2>Common Mistakes to Avoid</h2>
+                <p>
+                    To get the most from cold plunge therapy while avoiding potential pitfalls, avoid these common mistakes:
+                </p>
+                <ul>
+                    <li><strong>Starting too cold, too fast:</strong> Gradual adaptation prevents excessive stress</li>
+                    <li><strong>Staying in too long:</strong> More time doesn't mean more benefits; 3-5 minutes is optimal</li>
+                    <li><strong>Using immediately after training:</strong> Wait 30+ minutes to avoid excessive physiological stress</li>
+                    <li><strong>Inconsistent practice:</strong> Benefits accumulate with regular, consistent use</li>
+                    <li><strong>Ignoring individual tolerance:</strong> Listen to your body and adjust accordingly</li>
+                    <li><strong>Using as sole recovery method:</strong> Combine with sleep, nutrition, and active recovery</li>
+                </ul>
+
+                <h2>The Future of Cold Plunge Therapy</h2>
+                <p>
+                    As sports science continues to evolve, our understanding of cold plunge therapy becomes increasingly sophisticated. Emerging research is exploring personalized cold exposure protocols based on individual genetics, training status, and recovery needs. Advanced monitoring technologies are enabling athletes to track physiological markers and optimize their cold plunge protocols for maximum effectiveness.
+                </p>
+                <p>
+                    The integration of cold plunge therapy with other recovery modalities—such as contrast water therapy, compression therapy, and sleep optimization—represents the frontier of elite performance recovery. As this research continues, we'll likely see even more refined protocols and applications for this powerful recovery tool.
+                </p>
+
+                <h2>Conclusion: Transform Your Recovery Today</h2>
+                <p>
+                    Cold plunge therapy represents one of the most evidence-backed, accessible recovery tools available to modern athletes and wellness enthusiasts. The science is clear: regular cold water immersion reduces inflammation, accelerates recovery, enhances performance, and builds mental resilience. Whether you're a competitive athlete seeking marginal gains or a fitness enthusiast committed to optimal health, cold plunge therapy deserves a place in your recovery arsenal.
+                </p>
+                <p>
+                    The key to success is starting conservatively, maintaining consistency, and listening to your body as you adapt to the cold. With proper implementation of the protocols outlined in this guide, you can expect to experience faster recovery, reduced muscle soreness, improved performance, and enhanced overall wellness. The transformation begins with a single plunge—take the first step toward revolutionizing your recovery today.
+                </p>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="mt-12 md:mt-16 p-8 md:p-12 bg-gradient-to-br from-blue-50 to-white rounded-xl border border-blue-100">
+                <h3 class="text-2xl font-bold text-slate-900 mb-4">Ready to Experience Cold Plunge Therapy?</h3>
+                <p class="text-gray-700 mb-6">
+                    Transform your recovery routine with a premium ColdPlunge system designed for optimal performance and wellness.
+                </p>
+                <a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom" class="btn-primary inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700">
+                    Explore ColdPlunge Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-gray-300 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-snowflake text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">ColdPlunge</span>
+                    </div>
+                    <p class="text-sm text-gray-400 leading-relaxed mb-4">
+                        Premium cold therapy recovery systems designed for athletes and wellness enthusiasts worldwide.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-youtube text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#home" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Home</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Features</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Benefits</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">About Us</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Testimonials</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Support</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#contact" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Contact Us</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Shipping Info</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Returns</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3">
+                            <i class="fas fa-envelope text-blue-400 mt-1 text-sm"></i>
+                            <a href="mailto:coldplunge@yourbrand.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">coldplunge@yourbrand.com</a>
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 text-sm"></i>
+                            <span class="text-gray-400 text-sm">Worldwide Shipping Available</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fas fa-clock text-blue-400 mt-1 text-sm"></i>
+                            <span class="text-gray-400 text-sm">Mon-Fri: 9AM-5PM EST</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-slate-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-sm text-gray-400 text-center md:text-left">
+                        &copy; <span id="year"></span> ColdPlunge. All rights reserved. | Premium Cold Therapy Recovery Systems
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="privacy.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy</a>
+                        <a href="terms.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms</a>
+                        <a href="blog.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-button')?.addEventListener('click', function() {
+            const menu = document.querySelector('.mobile-menu');
+            menu.classList.toggle('active');
+        });
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('.mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('.mobile-menu').classList.remove('active');
+            });
+        });
+
+        // FAQ Toggle
+        function toggleFAQ(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('i');
+            
+            // Close all other FAQs
+            document.querySelectorAll('.faq-content.active').forEach(item => {
+                if (item !== content) {
+                    item.classList.remove('active');
+                    item.previousElementSibling.querySelector('i').style.transform = 'rotate(0deg)';
+                }
+            });
+            
+            // Toggle current FAQ
+            content.classList.toggle('active');
+            icon.style.transform = content.classList.contains('active') ? 'rotate(180deg)' : 'rotate(0deg)';
+        }
+
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
