@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your wellness routine with premium cold plunge therapy recovery. Digital temperature control, easy drain system, and insulated design for optimal recovery.">
+    <meta name="keywords" content="cold plunge, cold therapy, recovery, wellness, ice bath">
+    <meta name="author" content="Cold Plunge Brand">
+    <title>Terms of Service – Premium Cold Plunge Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
+        }
+        
+        .feature-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+        
+        .testimonial-card {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+        }
+        
+        .faq-item {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-item:hover {
+            background-color: rgba(59, 130, 246, 0.02);
+        }
+        
+        .faq-button {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-button:hover {
+            color: #3b82f6;
+        }
+        
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .faq-content.active {
+            max-height: 500px;
+        }
+        
+        .mobile-menu {
+            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .mobile-menu.active {
+            display: block;
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .benefit-image {
+            transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .benefit-image:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Announcement Bar -->
+    <div class="bg-slate-900 text-white py-2 text-center text-sm font-medium">
+        <p>🚚 Fast Worldwide Shipping - 5 days delivery | 100% Satisfaction Guarantee</p>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom" class="flex items-center gap-2">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-snowflake text-white text-lg"></i>
+                    </div>
+                    <span class="text-xl font-bold text-slate-900">ColdPlunge</span>
+                </a>
+
+                <!-- Back Link -->
+                <a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom" class="nav-link text-gray-700 hover:text-blue-600 font-medium text-sm">
+                    ← Back
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Page Title -->
+            <div class="mb-12 md:mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-6">Terms of Service</h1>
+                <p class="text-lg text-gray-600">Last updated: <span id="current-date"></span></p>
+            </div>
+
+            <!-- Introduction Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Introduction</h2>
+                <div class="space-y-4 text-gray-700 leading-relaxed">
+                    <p>
+                        Welcome to ColdPlunge ("Company," "we," "us," or "our"). These Terms of Service ("Terms") govern your use of our website, products, and services (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to any part of these Terms, you may not use our Services.
+                    </p>
+                    <p>
+                        ColdPlunge is committed to providing high-quality cold plunge therapy systems and related products to enhance your wellness and recovery journey. These Terms establish the legal framework for your relationship with us and outline the rights and responsibilities of both parties.
+                    </p>
+                    <p>
+                        Please read these Terms carefully before making any purchase or using our Services. We reserve the right to modify these Terms at any time. Your continued use of our Services following any changes constitutes your acceptance of the modified Terms. We will notify you of any material changes by updating the "Last updated" date at the top of this page.
+                    </p>
+                </div>
+            </div>
+
+            <!-- User Agreements Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">User Agreements and Eligibility</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Age and Legal Capacity</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            By using our Services, you represent and warrant that you are at least 18 years of age and possess the legal authority to enter into these Terms. If you are under 18, you must have parental or guardian consent to use our Services. We do not knowingly collect personal information from individuals under 18 years of age.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Account Responsibility</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You are responsible for maintaining the confidentiality of your account information and password. You agree to accept responsibility for all activities that occur under your account. You must notify us immediately of any unauthorized use of your account or any other breach of security.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Product Use and Health Disclaimer</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Cold plunge therapy may not be suitable for everyone. Before using our products, you should consult with a healthcare professional, especially if you have cardiovascular disease, high blood pressure, pregnancy, cold urticaria, or any other medical conditions. ColdPlunge products are designed for personal wellness use only and are not intended to diagnose, treat, cure, or prevent any disease. Your use of our products is at your own risk.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Assumption of Risk</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You acknowledge that cold therapy carries inherent risks. By using our products, you voluntarily assume all risks associated with cold plunge therapy and assume full responsibility for any injury or damage that may result from your use of our Services or products.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Acceptable Use Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Acceptable Use Policy</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Prohibited Activities</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            You agree not to engage in any of the following prohibited activities:
+                        </p>
+                        <ul class="space-y-2 text-gray-700 ml-6">
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Using our Services for any illegal purpose or in violation of any applicable laws or regulations</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Harassing, threatening, defaming, or abusing other users or ColdPlunge staff</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Attempting to gain unauthorized access to our systems or networks</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Uploading or transmitting viruses or malicious code</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Collecting or tracking personal information without consent</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Spamming or sending unsolicited communications</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Reselling or redistributing our products without authorization</span>
+                            </li>
+                            <li class="flex gap-3">
+                                <span class="text-blue-600 font-semibold">•</span>
+                                <span>Reverse engineering, disassembling, or attempting to derive the source code of our products</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Product Misuse</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You agree to use our products only in accordance with the instructions provided. You are prohibited from modifying, altering, or damaging our products in any way. Any misuse of our products will void the warranty and may result in injury or property damage for which ColdPlunge is not responsible.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Intellectual Property Rights</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            All content on our website, including text, graphics, logos, images, and software, is the property of ColdPlunge or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, or transmit any content without our prior written permission.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Limitation of Liability Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Limitation of Liability</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Disclaimer of Warranties</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Our Services and products are provided on an "AS IS" and "AS AVAILABLE" basis without any warranties, either express or implied. To the fullest extent permitted by law, ColdPlunge disclaims all warranties, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Limitation of Damages</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            In no event shall ColdPlunge, its directors, employees, or agents be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or business opportunities, arising out of or in connection with your use of our Services or products, even if we have been advised of the possibility of such damages.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Maximum Liability</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            The maximum liability of ColdPlunge for any claim arising out of or relating to these Terms or our Services shall not exceed the total amount paid by you for the product or service in question in the twelve months preceding the claim. Some jurisdictions do not allow the limitation or exclusion of liability, so this provision may not apply to you.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Indemnification</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You agree to indemnify, defend, and hold harmless ColdPlunge and its officers, directors, employees, and agents from any and all claims, damages, losses, and expenses, including reasonable attorneys' fees, arising out of or in connection with your use of our Services, your violation of these Terms, or your infringement of any third-party rights.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Warranty and Returns Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Warranty and Returns</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Product Warranty</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            ColdPlunge warrants that all products are free from defects in materials and workmanship under normal use for a period of five (5) years from the date of purchase. This warranty covers manufacturing defects and mechanical failures but does not cover damage caused by misuse, accidents, unauthorized modifications, or normal wear and tear.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Return and Refund Policy</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We offer a 100% Satisfaction Guarantee with a 30-day return window from the date of purchase. If you are not completely satisfied with your purchase, you may return the product for a full refund. Returns must be in original condition with all original packaging and accessories. Return shipping costs are the responsibility of the customer unless the return is due to our error or a defective product.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Warranty Claims</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            To file a warranty claim, you must contact our customer support team with proof of purchase. We will evaluate your claim and determine the appropriate remedy, which may include repair, replacement, or refund at our sole discretion. Warranty claims must be submitted within the warranty period.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipping and Delivery Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Shipping and Delivery</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Delivery Timeline</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            ColdPlunge aims to deliver orders within 5 business days to destinations within our standard shipping zones. Delivery times may vary based on location, weather conditions, and other unforeseen circumstances. We are not responsible for delays caused by carriers or events beyond our control.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Risk of Loss</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            Risk of loss and title to products pass to you upon delivery to the shipping carrier. We recommend purchasing shipping insurance for high-value items. ColdPlunge is not responsible for loss or damage to products after they have been delivered to the carrier.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">International Shipping</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We offer worldwide shipping. International customers are responsible for any import duties, taxes, or customs fees. ColdPlunge is not responsible for delays or issues related to customs clearance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Payment and Pricing Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Payment and Pricing</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Pricing</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            All prices are displayed in USD unless otherwise specified. Prices are subject to change without notice. We reserve the right to correct any pricing errors on our website. Sales tax will be calculated and added to your order based on your location.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Payment Methods</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            We accept all major credit cards, debit cards, and other payment methods as displayed on our checkout page. Payment must be received before your order is processed and shipped. By providing payment information, you authorize ColdPlunge to charge your account for the full purchase price.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Billing</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You agree to provide accurate and complete billing information. You are responsible for maintaining the accuracy of your billing information and notifying us of any changes. Failure to provide accurate billing information may result in the cancellation of your order.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Governing Law Section -->
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Governing Law and Dispute Resolution</h2>
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Governing Law</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            These Terms shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions. You agree that any legal action or proceeding arising out of these Terms shall be subject to the exclusive jurisdiction of the federal and state courts located in the United States.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Dispute Resolution</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            In the event of any dispute arising out of or relating to these Terms or our Services, you agree to first attempt to resolve the matter through informal negotiation with our customer support team. If informal resolution is not successful, you agree to submit the dispute to binding arbitration rather than pursuing litigation in court.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Class Action Waiver</h3>
+                        <p class="text-gray-700 leading-relaxed">
+                            You agree that any arbitration or legal proceeding shall be conducted on an individual basis and not as a class action, collective action, or representative action. You waive your right to participate in any class or collective action against ColdPlunge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information Section -->
+            <div class="bg-gradient-to-br from-blue-50 to-white p-8 md:p-12 rounded-xl border border-blue-100">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Contact Information</h2>
+                <div class="space-y-6">
+                    <p class="text-gray-700 leading-relaxed">
+                        If you have any questions about these Terms of Service or need to report a violation, please contact us using the information below:
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900 mb-1">Email</h3>
+                                <p class="text-gray-700">
+                                    <a href="mailto:coldplunge@yourbrand.com" class="text-blue-600 hover:text-blue-700 transition-colors duration-300">coldplunge@yourbrand.com</a>
+                                </p>
+                                <p class="text-sm text-gray-600 mt-1">We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-headset text-white"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-semibold text-slate-900 mb-1">Customer Support</h3>
+                                <p class="text-gray-700">Monday - Friday, 9AM - 5PM EST</p>
+                                <p class="text-sm text-gray-600 mt-1">Expert assistance for all your questions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-t border-blue-200 pt-6">
+                        <p class="text-gray-700 leading-relaxed">
+                            For general inquiries, product information, or support, please reach out to our customer service team. We are committed to resolving any issues or concerns promptly and professionally.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Provisions Section -->
+            <div class="mt-12 md:mt-16 pt-12 md:pt-16 border-t border-gray-200">
+                <h2 class="text-2xl md:text-3xl font-bold text-slate-900 mb-6">Miscellaneous Provisions</h2>
+                <div class="space-y-6 text-gray-700 leading-relaxed">
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Entire Agreement</h3>
+                        <p>
+                            These Terms of Service, together with our Privacy Policy and any other policies or agreements referenced herein, constitute the entire agreement between you and ColdPlunge regarding your use of our Services and products. These Terms supersede all prior and contemporaneous agreements, understandings, and negotiations, whether written or oral.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Severability</h3>
+                        <p>
+                            If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it valid and enforceable, or if such modification is not possible, the provision shall be severed, and the remaining provisions shall remain in full force and effect.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Waiver</h3>
+                        <p>
+                            The failure of ColdPlunge to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision. Any waiver of any provision of these Terms must be in writing and signed by an authorized representative of ColdPlunge.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Assignment</h3>
+                        <p>
+                            These Terms may not be assigned or transferred by you without the prior written consent of ColdPlunge. Any attempt to assign these Terms without such consent shall be void. ColdPlunge may assign these Terms to any third party at any time without notice to you.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-slate-900 mb-3">Survival</h3>
+                        <p>
+                            Any provisions of these Terms that by their nature should survive termination or expiration, including but not limited to provisions regarding limitation of liability, indemnification, and governing law, shall survive the termination or expiration of these Terms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-gray-300 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-400 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-snowflake text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">ColdPlunge</span>
+                    </div>
+                    <p class="text-sm text-gray-400 leading-relaxed mb-4">
+                        Premium cold therapy recovery systems designed for athletes and wellness enthusiasts worldwide.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-facebook-f text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-instagram text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-twitter text-white"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-blue-600 rounded-lg flex items-center justify-center transition-colors duration-300">
+                            <i class="fab fa-youtube text-white"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#home" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Home</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Features</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Benefits</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#about" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">About Us</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Testimonials</a></li>
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Support</h3>
+                    <ul class="space-y-3">
+                        <li><a href="https://Hidden-Knowledge.github.io/refresh--recover--repeat----premium-cold-plunge-experience-2025-10-29-fnhom#contact" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Contact Us</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Terms of Service</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Shipping Info</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">Returns</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-semibold text-white mb-4">Contact</h3>
+                    <ul class="space-y-3">
+                        <li class="flex gap-3">
+                            <i class="fas fa-envelope text-blue-400 mt-1 text-sm"></i>
+                            <a href="mailto:coldplunge@yourbrand.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm">coldplunge@yourbrand.com</a>
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 text-sm"></i>
+                            <span class="text-gray-400 text-sm">Worldwide Shipping Available</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <i class="fas fa-clock text-blue-400 mt-1 text-sm"></i>
+                            <span class="text-gray-400 text-sm">Mon-Fri: 9AM-5PM EST</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="border-t border-slate-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-sm text-gray-400 text-center md:text-left">
+                        &copy; <span id="year"></span> ColdPlunge. All rights reserved. | Premium Cold Therapy Recovery Systems
+                    </p>
+                    <div class="flex gap-6">
+                        <a href="privacy.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy</a>
+                        <a href="terms.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms</a>
+                        <a href="blog.html" class="text-sm text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Set current date in Terms header
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const currentDate = new Date().toLocaleDateString('en-US', options);
+        document.getElementById('current-date').textContent = currentDate;
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href !== '#' && document.querySelector(href)) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
